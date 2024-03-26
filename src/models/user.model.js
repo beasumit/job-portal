@@ -1,0 +1,3 @@
+export defualt class UserModel{
+
+}
