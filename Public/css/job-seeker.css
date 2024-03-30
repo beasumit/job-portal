@@ -1,0 +1,30 @@
+
+
+.container{
+  /* width: 000px; */
+  height: 490px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+}
+.symbolimage{
+    width: 600px;
+    /* margin-left: 8px; */
+    opacity: 0.7;
+    /* z-index: -3; */
+}
+.box-1{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    
+    background-color: #EF5491;
+}
