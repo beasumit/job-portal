@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="css/home.css">
+
+<div class="container">
+
+    <form class="form-1" action="/jobs" method="post">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">active</label>
+            <select name="active" class="form-select" aria-label="Default select example">
+                
+                <option value="Actively Hiring">Actively Hiring </option>
+                <option value="Not Hiring">Not Hiring</option>
+              </select>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">cname</label>
+            <input type="text" name="cname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">techpost</label>
+                <input type="text" name="techpost" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">caddress</label>
+                <input type="text" name="caddress" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">salary</label>
+                <input type="text" name="salary" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">skill</label>
+                <select name="skill" class="form-select" multiple aria-label="Multiple select example">
+                    <option selected>Open this select menu</option>
+                    <option value="html">html</option>
+                    <option value="css">css</option>
+                    <option value="javascript">javascript</option>
+                    <option value="react">react</option>
+                    <option value="angular">angular</option>
+                    <option value="node.js">node.js</option>
+                    <option value="express">express</option>
+                    <option value="mongoose">mongoose</option>
+                  </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        
+        
+    </form>
+
+</div>

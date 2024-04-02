@@ -1,36 +1,38 @@
 <div class="container mt-5">
-  <h1>Users data</h1>
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="col">No.</th>
-        <th scope="col">Name</th>
-        <th scope="col">Email</th>
-        <th scope="col">Password</th>
-        <th scope="col">Action</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% users.forEach((user, index)=> { %>
-        <tr>
-          <th scope="row">
-            <%= index + 1 %>
-          </th>
-          <td>
-            <%= user.name %>
-          </td>
-          <td>
-            <%= user.email %>
-          </td>
-          <td>
-            <%= user.password %>
-          </td>
+  
 
-          <td><a href="/update">update</a>/ <a href="http:/delete">Delete</a> </td>
+      <h1>Users data</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">No.</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Password</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% users.forEach((user, index)=> { %>
+            <tr>
+              <th scope="row">
+                <%= index + 1 %>
+              </th>
+              <td>
+                <%= user.name %>
+              </td>
+              <td>
+                <%= user.email %>
+              </td>
+              <td>
+                <%= user.password %>
+              </td>
 
-        </tr>
-        <% }); %>
-    </tbody>
-  </table>
+              <td><a href="/update">update</a>/ <a href="http:/delete">Delete</a> </td>
+
+            </tr>
+            <% }); %>
+        </tbody>
+      </table>
 
 </div>

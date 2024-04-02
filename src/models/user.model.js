@@ -11,7 +11,7 @@ export default class UserModel {
   }
   static addUser(userData){
     let newUsers=new UserModel(
-      userData.length,
+      userData.length+1,
       userData.name,
       userData.email,
       userData.password
